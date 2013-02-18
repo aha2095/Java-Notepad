@@ -6,6 +6,10 @@ import java.awt.datatransfer.*;
 
 public class Notepad extends JFrame implements ActionListener, WindowListener {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JTextArea jta=new JTextArea();
 	File fnameContainer;
 	
